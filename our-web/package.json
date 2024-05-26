@@ -1,0 +1,41 @@
+{
+  "name": "our-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.3",
+    "@talkjs/react": "^0.1.7",
+    "ai": "^3.1.12",
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.3.0",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.378.0",
+    "mongodb": "^6.6.1",
+    "next": "14.2.3",
+    "next-client-cookies": "^1.1.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "sweetalert2": "^11.11.0",
+    "talkjs": "^0.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "daisyui": "^4.11.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "tailwind.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
